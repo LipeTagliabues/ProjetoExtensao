@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScene.unity
+    guid: d25991742ac76bc4c956c3b45222e719
+  - enabled: 1
+    path: Assets/Scenes/PhasesScene.unity
+    guid: ab2503461248a1044bbbfcfaa2d30272
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/GameScene2.unity
+    guid: d54b978248ea50c4baefd5b7e8cde098
+  - enabled: 1
+    path: Assets/Scenes/GameScene3.unity
+    guid: a1a81eac79cca644f9ac35fcb5f4d6dd
+  - enabled: 1
+    path: Assets/Scenes/GameScene4.unity
+    guid: 999a7190f9828e8448e24491050efc2d
+  - enabled: 1
+    path: Assets/Scenes/GameScene5.unity
+    guid: 3e257dce8156d1d43828fe448286f1bf
+  - enabled: 1
+    path: Assets/Scenes/GameScene6.unity
+    guid: 6635a1794d4721f4ea9df39b7fbbedb1
+  - enabled: 1
+    path: Assets/Scenes/Interactive/InteractiveScene.unity
+    guid: 2119de4d1e53d194996312742360e61e
+  - enabled: 1
+    path: Assets/Scenes/Interactive/InteractiveScene 1.unity
+    guid: 54fa0928262905349acc64f502135324
+  - enabled: 1
+    path: Assets/Scenes/Interactive/InteractiveScene 2.unity
+    guid: a1e6bd831095b9943899c9dde760e7a1
+  - enabled: 1
+    path: Assets/Scenes/Interactive/ScoreScene.unity
+    guid: 8059097315a6aef439ce76940bb78203
+  m_configObjects: {}
