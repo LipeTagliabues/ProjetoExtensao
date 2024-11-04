@@ -1,39 +1,40 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
-using UnityEngine.UIElements;
-using System;
-using UnityEngine.UI;
+using UnityEngine;
 
-public class PointsController : MonoBehaviour
+
+public class Lixeira : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI pointsText;
+    public string Trash;
+    public TextMeshProUGUI pontuacaoTexto;
+    private static int pontuacao = 0; 
 
-    void Start()
+    private void Start()
     {
-        pointsText.text = "0";
+        AtualizarTexto();
     }
 
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
         
-    }
-
-    public void ManagePoints(bool isDumpsterBlue)
-    {
-        int points;
-
-        if (isDumpsterBlue)
+        if (other.CompareTag(Trash))
         {
-            points = Convert.ToInt32(pointsText.text) + 1;
-            pointsText.text = points.ToString();
+            pontuacao += 1;
         }
         else
         {
-            points = Convert.ToInt32(pointsText.text) - 1;
-            pointsText.text = points.ToString();
+            if (pontuacao > 0)
+            {
+                pontuacao -= 1;
+            }
         }
+
+        AtualizarTexto();
+        Destroy(other.gameObject);
     }
 
+    private void AtualizarTexto()
+    {
+        pontuacaoTexto.text = pontuacao.ToString();
+    }
 }

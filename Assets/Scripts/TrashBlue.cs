@@ -10,7 +10,7 @@ public class TrashBlue : MonoBehaviour
     public Rigidbody2D rbd2;
     public float speed;
     private RectTransform rectTransform;
-    [SerializeField] PointsController pointsController;
+    [SerializeField] Lixeira pointsController;
 
     // Start is called before the first frame update
     void Start()

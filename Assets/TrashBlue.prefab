@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 10337179954091984}
   m_Layer: 0
   m_Name: TrashBlue
-  m_TagString: Untagged
+  m_TagString: TrashBlue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,7 +152,6 @@ MonoBehaviour:
   rbd2: {fileID: 439063828395544848}
   speed: 0.5
   pointsController: {fileID: 0}
-  scoreText: {fileID: 0}
 --- !u!61 &-7413102080483167225
 BoxCollider2D:
   m_ObjectHideFlags: 0
