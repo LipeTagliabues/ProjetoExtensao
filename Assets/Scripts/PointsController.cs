@@ -12,6 +12,7 @@ public class Lixeira : MonoBehaviour
     private void Start()
     {
         AtualizarTexto();
+        pontuacao = 0;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
