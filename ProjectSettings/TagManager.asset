@@ -8,7 +8,15 @@ TagManager:
   - DumpsterBlue
   - DumpsterRed
   - TrashBlue
-  - TRed
+  - TrashRed
+  - TrashOrange
+  - DumpsterOrange
+  - DumpsterGreen
+  - DumpsterBrown
+  - DumpsterYellow
+  - TrashGreen
+  - TrashBrown
+  - TrashYellow
   layers:
   - Default
   - TransparentFX

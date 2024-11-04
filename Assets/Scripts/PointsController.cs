@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Lixeira : MonoBehaviour
 {
-    public string Trash;
+    public List <string> Trash;
     public TextMeshProUGUI pontuacaoTexto;
     private static int pontuacao = 0; 
 
@@ -16,9 +16,11 @@ public class Lixeira : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
-        if (other.CompareTag(Trash))
+       
+
+        if (Trash.Contains(other.tag))
         {
+           
             pontuacao += 1;
         }
         else
@@ -32,6 +34,7 @@ public class Lixeira : MonoBehaviour
         AtualizarTexto();
         Destroy(other.gameObject);
     }
+
 
     private void AtualizarTexto()
     {

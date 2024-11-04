@@ -1625,7 +1625,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7544995fb14e6b42952543f989a1da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trash: TrashBlue
+  Trash:
+  - TrashBlue
+  - 
   pontuacaoTexto: {fileID: 2096307994}
 --- !u!1 &1974928233
 GameObject:
@@ -1855,7 +1857,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7544995fb14e6b42952543f989a1da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Trash: TrashRed
+  Trash:
+  - 
+  - TrashRed
   pontuacaoTexto: {fileID: 2096307994}
 --- !u!1001 &1824114858227430606
 PrefabInstance:

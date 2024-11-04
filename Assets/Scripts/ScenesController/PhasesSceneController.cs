@@ -11,7 +11,12 @@ public class PhasesSceneController : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-    
+
+    public void MenuGame()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     //MENU PRINCIPAL
     public void StartGame1()
     {

@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 4825713385405445773}
   m_Layer: 0
   m_Name: TrashBrownCanvas
-  m_TagString: Untagged
+  m_TagString: TrashBrown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
