@@ -17,8 +17,8 @@ GameObject:
   - component: {fileID: 8738098751985655232}
   - component: {fileID: 4825713385405445773}
   m_Layer: 0
-  m_Name: TrashOrageCanvas
-  m_TagString: TrashOrange
+  m_Name: TrashBrownCanvas 2
+  m_TagString: TrashBrown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -190,7 +190,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7302a65faeb76b14c87da68230b632b2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5ada2bb0658c2b84db6cecca5c7e753d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
